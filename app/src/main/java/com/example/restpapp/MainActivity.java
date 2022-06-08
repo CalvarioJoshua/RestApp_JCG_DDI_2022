@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
+import java.util.Arrays;
+import java.util.List;
 
 import com.example.restpapp.databinding.ActivityMainBinding;
 
@@ -22,7 +24,7 @@ public class MainActivity extends Activity {
         mTextView = findViewById(R.id.MsjTextView);
         mButton = findViewById(R.id.Button);
 
-        mTextView.setText(mensajes.get[1]);
-        mTextView.setText(mensajes);
+        mTextView.setText(mensajes.get(1));
+        //mTextView.setText(mensajes);
     }
 }
